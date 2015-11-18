@@ -23,7 +23,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var affiche: UILabel! // Affichage du résultat
     @IBOutlet weak var yeux: UIImageView! // Visage
 
-    var testVariable = true
     var hasBeenPressed: Bool = false //if coma has been pressed
     var afficheTemp = "" // Temp var for display
     var result = Double() // Contains result of calcul
