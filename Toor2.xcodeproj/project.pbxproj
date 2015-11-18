@@ -8,20 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		2AE187E01BE3250E006AB939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE187DF1BE3250E006AB939 /* AppDelegate.swift */; };
-		2AE187E21BE3250E006AB939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE187E11BE3250E006AB939 /* ViewController.swift */; };
-		2AE187E51BE3250E006AB939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE187E31BE3250E006AB939 /* Main.storyboard */; };
 		2AE187E71BE3250E006AB939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE187E61BE3250E006AB939 /* Assets.xcassets */; };
 		2AE187EA1BE3250E006AB939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE187E81BE3250E006AB939 /* LaunchScreen.storyboard */; };
+		2AE187F21BE32581006AB939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE187F11BE32581006AB939 /* Main.storyboard */; };
+		2AE187F41BE3268C006AB939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE187F31BE3268C006AB939 /* ViewController.swift */; };
+		2AE187F71BE32DA8006AB939 /* OCRAEXT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 2AE187F61BE32DA8006AB939 /* OCRAEXT.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A6FC2A41BE8495A006E3436 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		2AE187DC1BE3250E006AB939 /* Toor2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toor2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE187DF1BE3250E006AB939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2AE187E11BE3250E006AB939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2AE187E41BE3250E006AB939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2AE187E61BE3250E006AB939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AE187E91BE3250E006AB939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AE187EB1BE3250E006AB939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE187F11BE32581006AB939 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2AE187F31BE3268C006AB939 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AE187F61BE32DA8006AB939 /* OCRAEXT.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = OCRAEXT.TTF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +58,11 @@
 			isa = PBXGroup;
 			children = (
 				2AE187DF1BE3250E006AB939 /* AppDelegate.swift */,
-				2AE187E11BE3250E006AB939 /* ViewController.swift */,
-				2AE187E31BE3250E006AB939 /* Main.storyboard */,
+				2AE187F11BE32581006AB939 /* Main.storyboard */,
+				2AE187F31BE3268C006AB939 /* ViewController.swift */,
+				2A6FC2A41BE8495A006E3436 /* MyPlayground.playground */,
 				2AE187E61BE3250E006AB939 /* Assets.xcassets */,
+				2AE187F61BE32DA8006AB939 /* OCRAEXT.TTF */,
 				2AE187E81BE3250E006AB939 /* LaunchScreen.storyboard */,
 				2AE187EB1BE3250E006AB939 /* Info.plist */,
 			);
@@ -124,8 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AE187EA1BE3250E006AB939 /* LaunchScreen.storyboard in Resources */,
+				2AE187F71BE32DA8006AB939 /* OCRAEXT.TTF in Resources */,
 				2AE187E71BE3250E006AB939 /* Assets.xcassets in Resources */,
-				2AE187E51BE3250E006AB939 /* Main.storyboard in Resources */,
+				2AE187F21BE32581006AB939 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AE187E21BE3250E006AB939 /* ViewController.swift in Sources */,
+				2AE187F41BE3268C006AB939 /* ViewController.swift in Sources */,
 				2AE187E01BE3250E006AB939 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +150,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2AE187E31BE3250E006AB939 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2AE187E41BE3250E006AB939 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2AE187E81BE3250E006AB939 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,6 +283,7 @@
 				2AE187F01BE3250E006AB939 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
